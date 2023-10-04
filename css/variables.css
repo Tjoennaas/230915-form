@@ -1,0 +1,21 @@
+
+
+:root {
+	--color-secondary: #9FABAD;
+	--color-tertiary:  greenyellow;
+
+
+   --font-family-primary:'Courier';
+   --font-family-secondary: 'verdana';
+   --font-family-tertiary: monospace;
+
+	--font-size-xsmall: 0.7rem;
+	--font-size-small: 1rem;
+	--font-size-medium: 1.5rem;
+	--font-size-large: 2.5rem;
+
+     
+} 
+
+ 
+	

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <h2>Payment information</h2>
+        <p>
+          <label for="card">
+            <span>Card type:</span>
+          </label>
+          <select id="card" name="usercard">
+            <option value="visa">Visa</option>
+            <option value="mc">Mastercard</option>
+            <option value="amex">American Express</option>
+          </select>
+        </p>
+        <p>
+          <label for="number">
+            <span>Card number:</span>
+            <strong><span aria-label="required">*</span></strong>
+          </label>
+          <input type="tel" id="number" name="cardnumber" required />
+        </p>
+        <p>
+          <label for="expiration">
+            <span>Expiration date:</span>
+            <strong><span aria-label="required">*</span></strong>
+          </label>
+          <input>
+            type="text"
+            id="expiration"
+            required="true"
+            placeholder="MM/YY"
+        </input>
+</body>
+</html>
